@@ -9,13 +9,16 @@
 
 int main(int argc,char * argv[]) {
 
-	if(argc!=2) {
-		printf("usage : tagm <thread number>\n");
+	if(argc!=3) {
+		printf("usage : tagm <thread number> <iterations>\n");
 		return 1;
 	}
 	char* thread_num_str = argv[1];
 	int thread_num;
 	sscanf(thread_num_str,"%d",&thread_num);
+
+	int iterations;
+	sscanf(argv[2],"%d",&iterations);
 
 	int provided;
 	MPI_Init_thread(NULL, NULL,MPI_THREAD_MULTIPLE,&provided);
@@ -39,7 +42,7 @@ int main(int argc,char * argv[]) {
 	{
 		int tid=omp_get_thread_num();
 		int i,token;
-		for( i=0;i<1000*1000;i++)
+		for( i=0;i<iterations;i++)
 		if( world_rank == 0) {
 			//this is the root
 			MPI_Send(&i,    1,MPI_INT,1-world_rank,tid,MPI_COMM_WORLD);
