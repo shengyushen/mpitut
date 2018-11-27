@@ -1,0 +1,6 @@
+# thread_num non_bing_numa_time bind_numa_time
+1	4.34 4.36
+2	17.21 13.45
+4	44.28 42.86
+8	515.33 98.03
+14 notest      183.45

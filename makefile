@@ -1,4 +1,4 @@
-EXECS = hello.exe sendrecv.exe barrier.exe bcast.exe scatter.exe gather.exe reduce.exe
+EXECS = hello.exe sendrecv.exe barrier.exe bcast.exe scatter.exe gather.exe reduce.exe mpiomp.exe
 MPICC?=mpicc
 
 .DEFAULT_GOAL := all
@@ -6,7 +6,7 @@ MPICC?=mpicc
 all: ${EXECS}
 
 %.exe : %.c
-	${MPICC} -o $@ $<
+	${MPICC} -fopenmp -o $@ $<
 
 .PHONY: clean
 
