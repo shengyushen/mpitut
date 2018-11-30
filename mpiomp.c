@@ -9,8 +9,8 @@
 
 int main(int argc,char * argv[]) {
 
-	if(argc!=3) {
-		printf("usage : tagm <thread number> <iterations>\n");
+	if(argc!=4) {
+		printf("usage : tagm <thread number> <iterations> <gap>\n");
 		return 1;
 	}
 	char* thread_num_str = argv[1];
@@ -19,6 +19,9 @@ int main(int argc,char * argv[]) {
 
 	int iterations;
 	sscanf(argv[2],"%d",&iterations);
+
+	int gap;
+	sscanf(argv[3],"%d",&gap);
 
 	int provided;
 	MPI_Init_thread(NULL, NULL,MPI_THREAD_MULTIPLE,&provided);
@@ -45,18 +48,20 @@ int main(int argc,char * argv[]) {
 		for( i=0;i<iterations;i++)
 		if( world_rank == 0) {
 			//this is the root
-			MPI_Send(&i,    1,MPI_INT,1-world_rank,tid,MPI_COMM_WORLD);
-			if((i%10000)==0)
+			MPI_Send(&tid,    1,MPI_INT,1-world_rank,tid,MPI_COMM_WORLD);
+			if((i%gap)==0)
 				printf("rank %d tid %d send token %d\n",world_rank,tid,i);
 			MPI_Recv(&token,1,MPI_INT,1-world_rank,tid,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
-			if((i%10000)==0)
+			assert(token==tid);
+			if((i%gap)==0)
 				printf("rank %d tid %d recv token %d\n",world_rank,tid,token);
 		} else {
 			MPI_Recv(&token,1,MPI_INT,1-world_rank,tid,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
-			if((i%10000)==0)
+			assert(token==tid);
+			if((i%gap)==0)
 				printf("rank %d tid %d receive token %d\n",world_rank,tid,token);
-			MPI_Send(&i,    1,MPI_INT,1-world_rank,tid,MPI_COMM_WORLD);
-			if((i%10000)==0)
+			MPI_Send(&tid,    1,MPI_INT,1-world_rank,tid,MPI_COMM_WORLD);
+			if((i%gap)==0)
 				printf("rank %d tid %d send token %d\n",world_rank,tid,i);
 		}
 	}
