@@ -15,7 +15,7 @@
 # 3.9
 #mpirun   -mca pml ob1 --allow-run-as-root --oversubscribe  --npernode 1 -bind-to numa -H node55,node61 mpiomp.exe $1 $2 $3
 #10s  some times, 3.9s sometimes
-mpirun  -mca pml ob1 -mca btl self,tcp --mca btl_base_verbose 100 --allow-run-as-root --oversubscribe  --npernode 1 -bind-to numa -H node55,node61 mpiomp.exe $1 $2 $3
+mpirun  -mca pml ob1 -mca btl self,tcp -mca btl_tcp_if_include ib0 --mca btl_base_verbose 100 --allow-run-as-root --oversubscribe  --npernode 1 -bind-to numa -H gpu1,gpu4 mpiomp.exe $1 $2 $3
 
 #3.9
 #mpirun   -x UCX_TLS=rc,sm --allow-run-as-root --oversubscribe  --npernode 1 -bind-to numa -H node55,node61 mpiomp.exe $1 $2 $3
