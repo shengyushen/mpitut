@@ -1,9 +1,9 @@
-# thread_num non_bing_numa_time bind_numa_time arm_bind_numa
-1	4.34 		4.36		3.88
-2	17.21 	13.45		9.22
-4	44.28 	42.86		19.52
-8	515.33 	98.03		39.16
-14 5340.29	183.45	69.06
-#14 notest	183.45	69.06
-28 notest	438.98	131.42
-56 notest	3088.60	260.61
+# thread_num non_bing_numa_time bind_numa_time arm_bind_numa_ib arm_bind_numa_tcp 
+1	4.34 		4.36		3.88 36.30
+2	17.21 	13.45		9.22 52.43
+4	44.28 	42.86		19.52 91.46
+8	515.33 	98.03		39.16 116.03
+14 5340.29	183.45	69.06 158.71
+#14 notest	183.45	69.06 
+28 notest	438.98	131.42 252.00
+56 notest	3088.60	260.61 441.44

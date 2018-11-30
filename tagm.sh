@@ -1,1 +1,5 @@
-mpirun --allow-run-as-root --oversubscribe --npernode 1 -report-bindings -bind-to numa -H gpu1,gpu3 mpiomp.exe 28 100000
+#mpirun -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_TLS=rc,sm -mca pml ob1 -mca  btl vader,tcp,openib --allow-run-as-root --oversubscribe --npernode 1 -report-bindings -bind-to numa -H gpu1,gpu3 mpiomp.exe $1 $2
+#mpirun -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_TLS=rc,sm  --allow-run-as-root --oversubscribe --npernode 1 -report-bindings -bind-to numa -H gpu1,gpu3 mpiomp.exe $1 $2
+#mpirun  -x UCX_RC_TM_ENABLE=y -x UCX_RC_VERBS_TM_ENABLE=y  -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_TLS=rc,sm -mca pml ob1 -mca btl vader,tcp,openib --allow-run-as-root --oversubscribe  --npernode 1 -bind-to numa -H gpu1,gpu3 mpiomp.exe $1 $2 
+#mpirun  -x UCX_RC_TM_ENABLE=y -x UCX_RC_VERBS_TM_ENABLE=y  -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_TLS=rc,sm -mca pml ob1 -mca btl vader,tcp,openib --mca btl_base_verbose 100 --allow-run-as-root --oversubscribe  --npernode 1 -bind-to numa -H gpu1,gpu3 mpiomp.exe $1 $2 
+mpirun  -mca pml ob1 -mca btl vader,tcp --mca btl_base_verbose 100 --allow-run-as-root --oversubscribe  --npernode 1 -bind-to numa -H gpu1,gpu3 mpiomp.exe $1 $2 
