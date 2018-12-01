@@ -39,6 +39,7 @@ int main(int argc, char** argv) {
 	}
 
 	int token;
+	printf("before send %s\n",processor_name);
 	if( world_rank == 0) {
 		//this is the root
 		MPI_Send(&token,1,MPI_INT,1,0,MPI_COMM_WORLD);
