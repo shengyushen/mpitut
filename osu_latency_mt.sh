@@ -1,0 +1,3 @@
+cat $1|grep -v "^#"|awk '{if($1=="thread") {current=$2} else if(current==1) {arr1[$1] =$2} else if(current==2) {arr2[$1]=$2} else if(current==4) {arr4[$1]=$2} else if(current==8) {arr8[$1]=$2}} END{for(i in arr1) {print i " " arr1[i] " " arr2[i] " " arr4[i] " " arr8[i]}}' |sort -k 1 -n > osu_latency_mt1.txt
+gnuplot -p -e 'set title "osu\\\_latency\\\_mt.sh osu\\\_latency\\\_mt.txt";set xlabel "packet size";set ylabel "latency(us)";set logscale y;set logscale x ; plot "osu_latency_mt1.txt" u 1:2 with linesp title "thread 1","" u 1:3 with linesp title "thread 2","" u 1:4 with linesp title "thread 4","" u 1:5 with linesp title "thread 8"'
+

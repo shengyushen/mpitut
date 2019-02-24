@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
 
 
 	if(world_size != 2) {
-		printf("Fatal : world size is not 2\n");
+		printf("Fatal : world size is %d, not 2\n",world_size);
 		MPI_Abort(MPI_COMM_WORLD ,1);
 	}
 

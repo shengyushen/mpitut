@@ -1,0 +1,7 @@
+mpi2mpi.c testing in order and rev order tag matching on one single machine
+mpi2mpi.sh testing with above program
+
+mpionly.c : two machine, each with thread_num processes, ping each other accordingly
+mpiomp.c  : two machine, each with thread_num threads, ping each other accordingly
+tagm.sh  : testing with above programs
+

@@ -1,4 +1,4 @@
-EXECS = hello.exe sendrecv.exe barrier.exe bcast.exe scatter.exe gather.exe reduce.exe mpiomp.exe mpionly.exe mpi2mpi.exe mpi2mpi_vader.exe
+EXECS = hello.exe sendrecv.exe barrier.exe bcast.exe scatter.exe gather.exe reduce.exe mpiomp.exe mpionly.exe mpi2mpi.exe mpi2mpi_sendrecv.exe mpiomp2.exe
 MPICC?=mpicc
 
 .DEFAULT_GOAL := all

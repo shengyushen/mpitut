@@ -24,14 +24,14 @@ int main(int argc,char * argv[]) {
 	sscanf(argv[3],"%d",&gap);
 
 	int provided;
-	MPI_Init_thread(NULL, NULL,MPI_THREAD_MULTIPLE,&provided);
+	MPI_Init_thread(&argc, &argv,MPI_THREAD_MULTIPLE,&provided);
 	assert(MPI_THREAD_MULTIPLE==provided);
 
   // Get the number of processes
   int world_size;
   MPI_Comm_size(MPI_COMM_WORLD, &world_size);
 	if(world_size != 2) {
-		printf("Fatal : world size is not 2\n");
+		printf("Fatal : world size is not 2 but %d\n",world_size);
 		MPI_Abort(MPI_COMM_WORLD ,1);
 	}
 
@@ -41,10 +41,11 @@ int main(int argc,char * argv[]) {
 
 	double start=MPI_Wtime();
 
-	#pragma omp parallel num_threads(thread_num)
+	#pragma omp parallel num_threads(thread_num) 
 	{
-		int tid=omp_get_thread_num();
+		int tid;
 		int i,token;
+		tid=omp_get_thread_num();
 		for( i=0;i<iterations;i++)
 		if( world_rank == 0) {
 			//this is the root
@@ -56,6 +57,7 @@ int main(int argc,char * argv[]) {
 			if((i%gap)==0)
 				printf("rank %d tid %d recv token %d\n",world_rank,tid,token);
 		} else {
+			assert(world_rank==1);
 			MPI_Recv(&token,1,MPI_INT,1-world_rank,tid,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
 			assert(token==tid);
 			if((i%gap)==0)
@@ -67,7 +69,7 @@ int main(int argc,char * argv[]) {
 	}
 	double end=MPI_Wtime();
 	if(world_rank==0)
-		printf("wall time %f\n",end-start);
+		printf("thread_num %d wall time %f\n", thread_num,end-start);
 //	#pragma omp parallel
 //	{
 //		int nthread = omp_get_num_threads();
