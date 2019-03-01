@@ -8,8 +8,8 @@ CMDOPT="-x PATH -x LD_LIBRARY_PATH"
 export OMP_DISPLAY_ENV=true
 export OMP_WAIT_POLICY=active
 export OMP_DYNAMIC=false
-export OMP_PLACES=threads
-export OMP_PROC_BIND=close
+export OMP_PLACES=cores
+export OMP_PROC_BIND=spread
 #export OMP_PLACES=cores
 #export OMP_PROC_BIND=spread
 OMPOPT="-x OMP_DISPLAY_ENV -x OMP_WAIT_POLICY -x OMP_DYNAMIC -x OMP_PLACES -x OMP_PROC_BIND "
@@ -42,7 +42,7 @@ TMOPT="-x UCX_RC_VERBS_TM_ENABLE=y"
 #mpirun -mca pml ob1 -mca btl self,openib -mca btl_openib_if_include mlx5_0:1 -mca btl_base_verbose 100 --allow-run-as-root --oversubscribe  --npernode $1  -H gpu1,gpu4 mpionly.exe $1 $2 $3
 
 # ucx ib
-mpirun  ${ROOTOPT} ${CMDOPT} ${OMPOPT}   ${UCXOPT} -mca orte_base_help_aggregate 0          --npernode 1 -bind-to numa -H gpu1,gpu4 "$@"
+mpirun  ${ROOTOPT} ${CMDOPT} ${OMPOPT}   ${UCXOPT} -mca orte_base_help_aggregate 0          --np 56 -bind-to numa -H gpu1,gpu4 "$@"
 #mpirun  ${ROOTOPT} ${CMDOPT} ${OMPOPT}   ${UCXOPT} ${TMOPT}  --npernode 1 -bind-to numa -H gpu1,gpu4 "$@"
 # with more process than core
 #mpirun  -mca pml ucx -x UCX_NET_DEVICES=mlx5_0:1 --allow-run-as-root --oversubscribe  --npernode $1 -H gpu1,gpu4 mpionly.exe $1 $2 $3
