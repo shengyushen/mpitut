@@ -1,0 +1,648 @@
+threads close
+thread_num 1 bufsize 8 wall time 2.906070 us
+threads spread
+thread_num 1 bufsize 8 wall time 2.910931 us
+cores close
+thread_num 1 bufsize 8 wall time 2.899996 us
+cores spread
+thread_num 1 bufsize 8 wall time 2.895883 us
+sockets close
+thread_num 1 bufsize 8 wall time 2.914945 us
+sockets spread
+thread_num 1 bufsize 8 wall time 2.916893 us
+threads close
+thread_num 1 bufsize 64 wall time 3.139452 us
+threads spread
+thread_num 1 bufsize 64 wall time 3.136835 us
+cores close
+thread_num 1 bufsize 64 wall time 3.121940 us
+cores spread
+thread_num 1 bufsize 64 wall time 3.126957 us
+sockets close
+thread_num 1 bufsize 64 wall time 3.116606 us
+sockets spread
+thread_num 1 bufsize 64 wall time 3.126344 us
+threads close
+thread_num 1 bufsize 512 wall time 5.526772 us
+threads spread
+thread_num 1 bufsize 512 wall time 5.530929 us
+cores close
+thread_num 1 bufsize 512 wall time 5.480127 us
+cores spread
+thread_num 1 bufsize 512 wall time 5.508459 us
+sockets close
+thread_num 1 bufsize 512 wall time 5.501739 us
+sockets spread
+thread_num 1 bufsize 512 wall time 5.538251 us
+threads close
+thread_num 1 bufsize 4096 wall time 9.545164 us
+threads spread
+thread_num 1 bufsize 4096 wall time 9.639559 us
+cores close
+thread_num 1 bufsize 4096 wall time 9.231494 us
+cores spread
+thread_num 1 bufsize 4096 wall time 9.141604 us
+sockets close
+thread_num 1 bufsize 4096 wall time 9.272622 us
+sockets spread
+thread_num 1 bufsize 4096 wall time 9.366965 us
+threads close
+thread_num 1 bufsize 32768 wall time 43.870129 us
+threads spread
+thread_num 1 bufsize 32768 wall time 43.710205 us
+cores close
+thread_num 1 bufsize 32768 wall time 32.948276 us
+cores spread
+thread_num 1 bufsize 32768 wall time 31.913576 us
+sockets close
+thread_num 1 bufsize 32768 wall time 35.279166 us
+sockets spread
+thread_num 1 bufsize 32768 wall time 35.471766 us
+threads close
+thread_num 1 bufsize 262144 wall time 114.716722 us
+threads spread
+thread_num 1 bufsize 262144 wall time 115.380695 us
+cores close
+thread_num 1 bufsize 262144 wall time 103.669961 us
+cores spread
+thread_num 1 bufsize 262144 wall time 103.405608 us
+sockets close
+thread_num 1 bufsize 262144 wall time 104.182935 us
+sockets spread
+thread_num 1 bufsize 262144 wall time 104.346758 us
+threads close
+thread_num 1 bufsize 2097152 wall time 1408.859437 us
+threads spread
+thread_num 1 bufsize 2097152 wall time 1437.094719 us
+cores close
+thread_num 1 bufsize 2097152 wall time 1083.413531 us
+cores spread
+thread_num 1 bufsize 2097152 wall time 1058.761188 us
+sockets close
+thread_num 1 bufsize 2097152 wall time 1113.205281 us
+sockets spread
+thread_num 1 bufsize 2097152 wall time 1142.998156 us
+threads close
+thread_num 1 bufsize 16777216 wall time 10440.114906 us
+threads spread
+thread_num 1 bufsize 16777216 wall time 6666.317031 us
+cores close
+thread_num 1 bufsize 16777216 wall time 6356.668437 us
+cores spread
+thread_num 1 bufsize 16777216 wall time 6280.724438 us
+sockets close
+thread_num 1 bufsize 16777216 wall time 6539.374000 us
+sockets spread
+thread_num 1 bufsize 16777216 wall time 6554.320531 us
+threads close
+thread_num 1 bufsize 134217728 wall time 348329.541000 us
+threads spread
+thread_num 1 bufsize 134217728 wall time 350006.255000 us
+cores close
+thread_num 1 bufsize 134217728 wall time 313463.094000 us
+cores spread
+thread_num 1 bufsize 134217728 wall time 318750.239000 us
+sockets close
+thread_num 1 bufsize 134217728 wall time 334312.115000 us
+sockets spread
+thread_num 1 bufsize 134217728 wall time 328223.030000 us
+threads close
+thread_num 2 bufsize 8 wall time 321.036323 us
+threads spread
+thread_num 2 bufsize 8 wall time 6.725206 us
+cores close
+thread_num 2 bufsize 8 wall time 39.552445 us
+cores spread
+thread_num 2 bufsize 8 wall time 769.997611 us
+sockets close
+thread_num 2 bufsize 8 wall time 15.048119 us
+sockets spread
+thread_num 2 bufsize 8 wall time 937.916986 us
+threads close
+thread_num 2 bufsize 64 wall time 30.196286 us
+threads spread
+thread_num 2 bufsize 64 wall time 6.991000 us
+cores close
+thread_num 2 bufsize 64 wall time 692.042707 us
+cores spread
+thread_num 2 bufsize 64 wall time 619.636675 us
+sockets close
+thread_num 2 bufsize 64 wall time 1230.538868 us
+sockets spread
+thread_num 2 bufsize 64 wall time 893.260590 us
+threads close
+thread_num 2 bufsize 512 wall time 1524.904973 us
+threads spread
+thread_num 2 bufsize 512 wall time 10.868885 us
+cores close
+thread_num 2 bufsize 512 wall time 719.100233 us
+cores spread
+thread_num 2 bufsize 512 wall time 247.596945 us
+sockets close
+thread_num 2 bufsize 512 wall time 13.828839 us
+sockets spread
+thread_num 2 bufsize 512 wall time 35.923682 us
+threads close
+thread_num 2 bufsize 4096 wall time 182.818240 us
+threads spread
+thread_num 2 bufsize 4096 wall time 18.933925 us
+cores close
+thread_num 2 bufsize 4096 wall time 136.398471 us
+cores spread
+thread_num 2 bufsize 4096 wall time 115.789128 us
+sockets close
+thread_num 2 bufsize 4096 wall time 73.371896 us
+sockets spread
+thread_num 2 bufsize 4096 wall time 95.408139 us
+threads close
+thread_num 2 bufsize 32768 wall time 91.985959 us
+threads spread
+thread_num 2 bufsize 32768 wall time 71.299583 us
+cores close
+thread_num 2 bufsize 32768 wall time 787.975387 us
+cores spread
+thread_num 2 bufsize 32768 wall time 463.326654 us
+sockets close
+thread_num 2 bufsize 32768 wall time 1878.899467 us
+sockets spread
+thread_num 2 bufsize 32768 wall time 410.741433 us
+threads close
+thread_num 2 bufsize 262144 wall time 1464.586016 us
+threads spread
+thread_num 2 bufsize 262144 wall time 199.963624 us
+cores close
+thread_num 2 bufsize 262144 wall time 1073.957535 us
+cores spread
+thread_num 2 bufsize 262144 wall time 796.969660 us
+sockets close
+thread_num 2 bufsize 262144 wall time 2102.856013 us
+sockets spread
+thread_num 2 bufsize 262144 wall time 1585.273291 us
+threads close
+thread_num 2 bufsize 2097152 wall time 4981.693125 us
+threads spread
+thread_num 2 bufsize 2097152 wall time 2366.011125 us
+cores close
+thread_num 2 bufsize 2097152 wall time 3573.533438 us
+cores spread
+thread_num 2 bufsize 2097152 wall time 4144.460500 us
+sockets close
+thread_num 2 bufsize 2097152 wall time 3985.825000 us
+sockets spread
+thread_num 2 bufsize 2097152 wall time 3903.172344 us
+threads close
+thread_num 2 bufsize 16777216 wall time 14842.430469 us
+threads spread
+thread_num 2 bufsize 16777216 wall time 12021.961469 us
+cores close
+thread_num 2 bufsize 16777216 wall time 13769.162656 us
+cores spread
+thread_num 2 bufsize 16777216 wall time 14236.471312 us
+sockets close
+thread_num 2 bufsize 16777216 wall time 15286.879094 us
+sockets spread
+thread_num 2 bufsize 16777216 wall time 13694.653812 us
+threads close
+thread_num 2 bufsize 134217728 wall time 404480.996000 us
+threads spread
+thread_num 2 bufsize 134217728 wall time 396997.621000 us
+cores close
+thread_num 2 bufsize 134217728 wall time 383320.284000 us
+cores spread
+thread_num 2 bufsize 134217728 wall time 391880.080000 us
+sockets close
+thread_num 2 bufsize 134217728 wall time 402482.843000 us
+sockets spread
+thread_num 2 bufsize 134217728 wall time 392546.701000 us
+threads close
+thread_num 4 bufsize 8 wall time 143.029600 us
+threads spread
+thread_num 4 bufsize 8 wall time 202.703922 us
+cores close
+thread_num 4 bufsize 8 wall time 63.774971 us
+cores spread
+thread_num 4 bufsize 8 wall time 181.669160 us
+sockets close
+thread_num 4 bufsize 8 wall time 112.684059 us
+sockets spread
+thread_num 4 bufsize 8 wall time 82.777610 us
+threads close
+thread_num 4 bufsize 64 wall time 35.025897 us
+threads spread
+thread_num 4 bufsize 64 wall time 138.717795 us
+cores close
+thread_num 4 bufsize 64 wall time 26.956463 us
+cores spread
+thread_num 4 bufsize 64 wall time 181.450481 us
+sockets close
+thread_num 4 bufsize 64 wall time 41.638263 us
+sockets spread
+thread_num 4 bufsize 64 wall time 270.716647 us
+threads close
+thread_num 4 bufsize 512 wall time 48.191874 us
+threads spread
+thread_num 4 bufsize 512 wall time 127.934894 us
+cores close
+thread_num 4 bufsize 512 wall time 815.814848 us
+cores spread
+thread_num 4 bufsize 512 wall time 53.279038 us
+sockets close
+thread_num 4 bufsize 512 wall time 43.309477 us
+sockets spread
+thread_num 4 bufsize 512 wall time 72.814812 us
+threads close
+thread_num 4 bufsize 4096 wall time 92.786316 us
+threads spread
+thread_num 4 bufsize 4096 wall time 242.786771 us
+cores close
+thread_num 4 bufsize 4096 wall time 55.992363 us
+cores spread
+thread_num 4 bufsize 4096 wall time 244.669838 us
+sockets close
+thread_num 4 bufsize 4096 wall time 172.673054 us
+sockets spread
+thread_num 4 bufsize 4096 wall time 53.065754 us
+threads close
+thread_num 4 bufsize 32768 wall time 241.262363 us
+threads spread
+thread_num 4 bufsize 32768 wall time 282.909177 us
+cores close
+thread_num 4 bufsize 32768 wall time 255.490870 us
+cores spread
+thread_num 4 bufsize 32768 wall time 419.935900 us
+sockets close
+thread_num 4 bufsize 32768 wall time 263.356179 us
+sockets spread
+thread_num 4 bufsize 32768 wall time 412.849663 us
+threads close
+thread_num 4 bufsize 262144 wall time 312.881331 us
+threads spread
+thread_num 4 bufsize 262144 wall time 1811.333152 us
+cores close
+thread_num 4 bufsize 262144 wall time 349.671986 us
+cores spread
+thread_num 4 bufsize 262144 wall time 507.424945 us
+sockets close
+thread_num 4 bufsize 262144 wall time 616.675062 us
+sockets spread
+thread_num 4 bufsize 262144 wall time 1578.319549 us
+threads close
+thread_num 4 bufsize 2097152 wall time 3641.951844 us
+threads spread
+thread_num 4 bufsize 2097152 wall time 4311.139250 us
+cores close
+thread_num 4 bufsize 2097152 wall time 3490.833375 us
+cores spread
+thread_num 4 bufsize 2097152 wall time 3078.712031 us
+sockets close
+thread_num 4 bufsize 2097152 wall time 5353.572094 us
+sockets spread
+thread_num 4 bufsize 2097152 wall time 3951.050875 us
+threads close
+thread_num 4 bufsize 16777216 wall time 20165.863781 us
+threads spread
+thread_num 4 bufsize 16777216 wall time 20478.403437 us
+cores close
+thread_num 4 bufsize 16777216 wall time 20248.717812 us
+cores spread
+thread_num 4 bufsize 16777216 wall time 20283.375656 us
+sockets close
+thread_num 4 bufsize 16777216 wall time 19597.728188 us
+sockets spread
+thread_num 4 bufsize 16777216 wall time 20339.732531 us
+threads close
+thread_num 4 bufsize 134217728 wall time 555255.795000 us
+threads spread
+thread_num 4 bufsize 134217728 wall time 564730.352000 us
+cores close
+thread_num 4 bufsize 134217728 wall time 558144.315000 us
+cores spread
+thread_num 4 bufsize 134217728 wall time 541749.750000 us
+sockets close
+thread_num 4 bufsize 134217728 wall time 602969.068000 us
+sockets spread
+thread_num 4 bufsize 134217728 wall time 629070.389000 us
+threads close
+thread_num 8 bufsize 8 wall time 193.736709 us
+threads spread
+thread_num 8 bufsize 8 wall time 143.394026 us
+cores close
+thread_num 8 bufsize 8 wall time 79.841896 us
+cores spread
+thread_num 8 bufsize 8 wall time 1342.113665 us
+sockets close
+thread_num 8 bufsize 8 wall time 104.383927 us
+sockets spread
+thread_num 8 bufsize 8 wall time 121.335887 us
+threads close
+thread_num 8 bufsize 64 wall time 59.956202 us
+threads spread
+thread_num 8 bufsize 64 wall time 266.487850 us
+cores close
+thread_num 8 bufsize 64 wall time 118.996818 us
+cores spread
+thread_num 8 bufsize 64 wall time 104.183421 us
+sockets close
+thread_num 8 bufsize 64 wall time 89.014227 us
+sockets spread
+thread_num 8 bufsize 64 wall time 248.633532 us
+threads close
+thread_num 8 bufsize 512 wall time 1935.008465 us
+threads spread
+thread_num 8 bufsize 512 wall time 557.396398 us
+cores close
+thread_num 8 bufsize 512 wall time 64.218901 us
+cores spread
+thread_num 8 bufsize 512 wall time 108.477211 us
+sockets close
+thread_num 8 bufsize 512 wall time 247.204007 us
+sockets spread
+thread_num 8 bufsize 512 wall time 99.716421 us
+threads close
+thread_num 8 bufsize 4096 wall time 78.700021 us
+threads spread
+thread_num 8 bufsize 4096 wall time 465.586642 us
+cores close
+thread_num 8 bufsize 4096 wall time 1809.902255 us
+cores spread
+thread_num 8 bufsize 4096 wall time 140.090312 us
+sockets close
+thread_num 8 bufsize 4096 wall time 420.948750 us
+sockets spread
+thread_num 8 bufsize 4096 wall time 113.561969 us
+threads close
+thread_num 8 bufsize 32768 wall time 198.554257 us
+threads spread
+thread_num 8 bufsize 32768 wall time 327.197701 us
+cores close
+thread_num 8 bufsize 32768 wall time 216.890351 us
+cores spread
+thread_num 8 bufsize 32768 wall time 834.812273 us
+sockets close
+thread_num 8 bufsize 32768 wall time 487.604809 us
+sockets spread
+thread_num 8 bufsize 32768 wall time 369.328363 us
+threads close
+thread_num 8 bufsize 262144 wall time 656.708363 us
+threads spread
+thread_num 8 bufsize 262144 wall time 970.999547 us
+cores close
+thread_num 8 bufsize 262144 wall time 556.107483 us
+cores spread
+thread_num 8 bufsize 262144 wall time 1031.544696 us
+sockets close
+thread_num 8 bufsize 262144 wall time 623.646181 us
+sockets spread
+thread_num 8 bufsize 262144 wall time 1435.601368 us
+threads close
+thread_num 8 bufsize 2097152 wall time 5457.643844 us
+threads spread
+thread_num 8 bufsize 2097152 wall time 5812.900219 us
+cores close
+thread_num 8 bufsize 2097152 wall time 5416.882125 us
+cores spread
+thread_num 8 bufsize 2097152 wall time 5468.966250 us
+sockets close
+thread_num 8 bufsize 2097152 wall time 7287.483219 us
+sockets spread
+thread_num 8 bufsize 2097152 wall time 6813.319094 us
+threads close
+thread_num 8 bufsize 16777216 wall time 38509.435344 us
+threads spread
+thread_num 8 bufsize 16777216 wall time 38658.101406 us
+cores close
+thread_num 8 bufsize 16777216 wall time 38500.919625 us
+cores spread
+thread_num 8 bufsize 16777216 wall time 38409.097750 us
+sockets close
+thread_num 8 bufsize 16777216 wall time 39706.328375 us
+sockets spread
+thread_num 8 bufsize 16777216 wall time 40012.079750 us
+threads close
+thread_num 8 bufsize 134217728 wall time 922714.235000 us
+threads spread
+thread_num 8 bufsize 134217728 wall time 896148.170000 us
+cores close
+thread_num 8 bufsize 134217728 wall time 974873.523000 us
+cores spread
+thread_num 8 bufsize 134217728 wall time 885685.087000 us
+sockets close
+thread_num 8 bufsize 134217728 wall time 1021108.255000 us
+sockets spread
+thread_num 8 bufsize 134217728 wall time 948324.664000 us
+threads close
+thread_num 14 bufsize 8 wall time 146.707464 us
+threads spread
+thread_num 14 bufsize 8 wall time 261.144411 us
+cores close
+thread_num 14 bufsize 8 wall time 235.199604 us
+cores spread
+thread_num 14 bufsize 8 wall time 265.482314 us
+sockets close
+thread_num 14 bufsize 8 wall time 281.554709 us
+sockets spread
+thread_num 14 bufsize 8 wall time 291.868826 us
+threads close
+thread_num 14 bufsize 64 wall time 244.443837 us
+threads spread
+thread_num 14 bufsize 64 wall time 1085.342368 us
+cores close
+thread_num 14 bufsize 64 wall time 152.454645 us
+cores spread
+thread_num 14 bufsize 64 wall time 265.332044 us
+sockets close
+thread_num 14 bufsize 64 wall time 290.587596 us
+sockets spread
+thread_num 14 bufsize 64 wall time 220.678158 us
+threads close
+thread_num 14 bufsize 512 wall time 165.166713 us
+threads spread
+thread_num 14 bufsize 512 wall time 179.896505 us
+cores close
+thread_num 14 bufsize 512 wall time 285.477439 us
+cores spread
+thread_num 14 bufsize 512 wall time 247.677160 us
+sockets close
+thread_num 14 bufsize 512 wall time 294.478976 us
+sockets spread
+thread_num 14 bufsize 512 wall time 166.830360 us
+threads close
+thread_num 14 bufsize 4096 wall time 242.627221 us
+threads spread
+thread_num 14 bufsize 4096 wall time 454.780604 us
+cores close
+thread_num 14 bufsize 4096 wall time 283.097161 us
+cores spread
+thread_num 14 bufsize 4096 wall time 170.607740 us
+sockets close
+thread_num 14 bufsize 4096 wall time 300.872990 us
+sockets spread
+thread_num 14 bufsize 4096 wall time 178.774503 us
+threads close
+thread_num 14 bufsize 32768 wall time 340.170556 us
+threads spread
+thread_num 14 bufsize 32768 wall time 466.696937 us
+cores close
+thread_num 14 bufsize 32768 wall time 407.356132 us
+cores spread
+thread_num 14 bufsize 32768 wall time 720.148895 us
+sockets close
+thread_num 14 bufsize 32768 wall time 539.215691 us
+sockets spread
+thread_num 14 bufsize 32768 wall time 599.996473 us
+threads close
+thread_num 14 bufsize 262144 wall time 1178.572569 us
+threads spread
+thread_num 14 bufsize 262144 wall time 1955.524049 us
+cores close
+thread_num 14 bufsize 262144 wall time 987.209309 us
+cores spread
+thread_num 14 bufsize 262144 wall time 1008.357275 us
+sockets close
+thread_num 14 bufsize 262144 wall time 1172.737148 us
+sockets spread
+thread_num 14 bufsize 262144 wall time 1083.517177 us
+threads close
+thread_num 14 bufsize 2097152 wall time 9405.243844 us
+threads spread
+thread_num 14 bufsize 2097152 wall time 9565.530188 us
+cores close
+thread_num 14 bufsize 2097152 wall time 8849.418938 us
+cores spread
+thread_num 14 bufsize 2097152 wall time 8896.562156 us
+sockets close
+thread_num 14 bufsize 2097152 wall time 11007.665531 us
+sockets spread
+thread_num 14 bufsize 2097152 wall time 11134.823469 us
+threads close
+thread_num 14 bufsize 16777216 wall time 64260.581375 us
+threads spread
+thread_num 14 bufsize 16777216 wall time 66020.437437 us
+cores close
+thread_num 14 bufsize 16777216 wall time 63725.054125 us
+cores spread
+thread_num 14 bufsize 16777216 wall time 64994.614000 us
+sockets close
+thread_num 14 bufsize 16777216 wall time 66407.365250 us
+sockets spread
+thread_num 14 bufsize 16777216 wall time 67254.556750 us
+threads close
+thread_num 14 bufsize 134217728 wall time 1356912.688000 us
+threads spread
+thread_num 14 bufsize 134217728 wall time 1477503.070000 us
+cores close
+thread_num 14 bufsize 134217728 wall time 1402692.640000 us
+cores spread
+thread_num 14 bufsize 134217728 wall time 1336385.543000 us
+sockets close
+thread_num 14 bufsize 134217728 wall time 1448504.077000 us
+sockets spread
+thread_num 14 bufsize 134217728 wall time 1471847.816000 us
+threads close
+thread_num 28 bufsize 8 wall time 1144.387957 us
+threads spread
+thread_num 28 bufsize 8 wall time 5622.498759 us
+cores close
+thread_num 28 bufsize 8 wall time 5031.576026 us
+cores spread
+thread_num 28 bufsize 8 wall time 5174.459947 us
+sockets close
+thread_num 28 bufsize 8 wall time 1008.409227 us
+sockets spread
+thread_num 28 bufsize 8 wall time 5381.684781 us
+threads close
+thread_num 28 bufsize 64 wall time 5869.367847 us
+threads spread
+thread_num 28 bufsize 64 wall time 1071.161887 us
+cores close
+thread_num 28 bufsize 64 wall time 1196.413690 us
+cores spread
+thread_num 28 bufsize 64 wall time 1172.348354 us
+sockets close
+thread_num 28 bufsize 64 wall time 1460.889790 us
+sockets spread
+thread_num 28 bufsize 64 wall time 5368.752484 us
+threads close
+thread_num 28 bufsize 512 wall time 1610.271961 us
+threads spread
+thread_num 28 bufsize 512 wall time 1140.877523 us
+cores close
+thread_num 28 bufsize 512 wall time 1645.159218 us
+cores spread
+thread_num 28 bufsize 512 wall time 1207.995811 us
+sockets close
+thread_num 28 bufsize 512 wall time 1081.338614 us
+sockets spread
+thread_num 28 bufsize 512 wall time 5793.303363 us
+threads close
+thread_num 28 bufsize 4096 wall time 7121.775832 us
+threads spread
+thread_num 28 bufsize 4096 wall time 7375.882084 us
+cores close
+thread_num 28 bufsize 4096 wall time 1201.595858 us
+cores spread
+thread_num 28 bufsize 4096 wall time 6824.872158 us
+sockets close
+thread_num 28 bufsize 4096 wall time 5526.817112 us
+sockets spread
+thread_num 28 bufsize 4096 wall time 1040.327209 us
+threads close
+thread_num 28 bufsize 32768 wall time 2087.100774 us
+threads spread
+thread_num 28 bufsize 32768 wall time 1606.647510 us
+cores close
+thread_num 28 bufsize 32768 wall time 1976.684049 us
+cores spread
+thread_num 28 bufsize 32768 wall time 2532.933959 us
+sockets close
+thread_num 28 bufsize 32768 wall time 1792.566454 us
+sockets spread
+thread_num 28 bufsize 32768 wall time 2117.879016 us
+threads close
+thread_num 28 bufsize 262144 wall time 13032.154785 us
+threads spread
+thread_num 28 bufsize 262144 wall time 3958.378958 us
+cores close
+thread_num 28 bufsize 262144 wall time 4122.626941 us
+cores spread
+thread_num 28 bufsize 262144 wall time 4743.711441 us
+sockets close
+thread_num 28 bufsize 262144 wall time 12103.012451 us
+sockets spread
+thread_num 28 bufsize 262144 wall time 4238.711026 us
+threads close
+thread_num 28 bufsize 2097152 wall time 46872.810906 us
+threads spread
+thread_num 28 bufsize 2097152 wall time 40394.605250 us
+cores close
+thread_num 28 bufsize 2097152 wall time 49360.582438 us
+cores spread
+thread_num 28 bufsize 2097152 wall time 48432.711937 us
+sockets close
+thread_num 28 bufsize 2097152 wall time 49031.320781 us
+sockets spread
+thread_num 28 bufsize 2097152 wall time 44741.875000 us
+threads close
+thread_num 28 bufsize 16777216 wall time 136339.726781 us
+threads spread
+thread_num 28 bufsize 16777216 wall time 135769.780594 us
+cores close
+thread_num 28 bufsize 16777216 wall time 135451.965594 us
+cores spread
+thread_num 28 bufsize 16777216 wall time 136052.489094 us
+sockets close
+thread_num 28 bufsize 16777216 wall time 140810.282812 us
+sockets spread
+thread_num 28 bufsize 16777216 wall time 138823.406688 us
+threads close
+thread_num 28 bufsize 134217728 wall time 4284300.769000 us
+threads spread
+thread_num 28 bufsize 134217728 wall time 4164801.703000 us
+cores close
+thread_num 28 bufsize 134217728 wall time 4031948.900000 us
+cores spread
+thread_num 28 bufsize 134217728 wall time 3952000.424000 us
+sockets close
+thread_num 28 bufsize 134217728 wall time 4215126.954000 us
+sockets spread
+thread_num 28 bufsize 134217728 wall time 4290916.309000 us

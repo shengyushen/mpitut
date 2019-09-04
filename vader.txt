@@ -1,0 +1,90 @@
+in order  1
+iterations is 1000000
+max_tag is 1
+order is 1
+wall time at order 1 and max_tag 1 is 0.444846
+rev order  1
+iterations is 1000000
+max_tag is 1
+order is 2
+wall time at order 2 and max_tag 1 is 0.437778
+in order  5
+iterations is 1000000
+max_tag is 5
+order is 1
+wall time at order 1 and max_tag 5 is 0.264979
+rev order  5
+iterations is 1000000
+max_tag is 5
+order is 2
+wall time at order 2 and max_tag 5 is 0.261874
+in order  10
+iterations is 1000000
+max_tag is 10
+order is 1
+wall time at order 1 and max_tag 10 is 0.216856
+rev order  10
+iterations is 1000000
+max_tag is 10
+order is 2
+wall time at order 2 and max_tag 10 is 0.221816
+in order  50
+iterations is 1000000
+max_tag is 50
+order is 1
+wall time at order 1 and max_tag 50 is 0.199427
+rev order  50
+iterations is 1000000
+max_tag is 50
+order is 2
+wall time at order 2 and max_tag 50 is 0.231086
+in order  100
+iterations is 1000000
+max_tag is 100
+order is 1
+wall time at order 1 and max_tag 100 is 0.179417
+rev order  100
+iterations is 1000000
+max_tag is 100
+order is 2
+wall time at order 2 and max_tag 100 is 0.292502
+in order  500
+iterations is 1000000
+max_tag is 500
+order is 1
+wall time at order 1 and max_tag 500 is 0.914522
+rev order  500
+iterations is 1000000
+max_tag is 500
+order is 2
+wall time at order 2 and max_tag 500 is 2.391895
+in order  1000
+iterations is 1000000
+max_tag is 1000
+order is 1
+wall time at order 1 and max_tag 1000 is 1.224231
+rev order  1000
+iterations is 1000000
+max_tag is 1000
+order is 2
+wall time at order 2 and max_tag 1000 is 4.547890
+in order  5000
+iterations is 1000000
+max_tag is 5000
+order is 1
+wall time at order 1 and max_tag 5000 is 1.736123
+rev order  5000
+iterations is 1000000
+max_tag is 5000
+order is 2
+wall time at order 2 and max_tag 5000 is 50.314244
+in order  10000
+iterations is 1000000
+max_tag is 10000
+order is 1
+wall time at order 1 and max_tag 10000 is 10.006974
+rev order  10000
+iterations is 1000000
+max_tag is 10000
+order is 2
+wall time at order 2 and max_tag 10000 is 93.229736
